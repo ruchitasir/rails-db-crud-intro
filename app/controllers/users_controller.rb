@@ -16,6 +16,15 @@ class UsersController < ApplicationController
   end	
 end
 
+# Below code is from:  https://git.generalassemb.ly/sei-nyc-bees/rails-ninja
+
+#  there is a dojo controller and routes are nested under dojo 
+# resources :dojos do
+#   resources :senseis do
+#   resources :students do
+#   end
+# end
+
 # class StudentsController < ApplicationController
 #   def index
 #       @sensei = Sensei.find(params[:sensei_id])
